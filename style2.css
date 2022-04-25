@@ -1,6 +1,4 @@
-@import {
-    url('https://fonts.googleapis.com/css2?family=Raleway&display=swap'); 
-}
+@import { url('https://fonts.googleapis.com/css2?family=Raleway&display=swap'); }
 
 body {
     font-family: 'Raleway', sans-serif;
@@ -22,11 +20,9 @@ a {
 
 span {
     font-size: 14px;
+    margin-top: -32px;
 }
 
-strong {
-    margin-bottom: -10px;
-}
 /* Navigation */
 
 #logo {
@@ -187,6 +183,7 @@ article {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    height: 80px;
 }
 
 .hb {
@@ -199,10 +196,14 @@ article {
 }
 
 
-#section1 h4 {
+#section1 h5 {
     padding-left: 40px;
     padding-bottom: 10px;
     margin-top: 5px;
+}
+
+.hb h4 {
+    margin-top : -1px;
 }
 
 /* etoile */
@@ -297,7 +298,7 @@ aside .star {
     grid-gap: 39px;
 }
 
-#activite strong {
+#activite h4 {
     margin-left: 20px;
 }
 
@@ -306,7 +307,6 @@ aside .star {
 #activite_1 {
     box-shadow: 1px 1px 29px -3px rgb(0 0 0 / 20%);
     border-radius: 20px;
-    padding-bottom: 20px;
 }
 
 #img_activite_1 {
@@ -314,7 +314,6 @@ aside .star {
     height: 400px;
     width: 300px;
     object-fit: cover;
-    padding-bottom: 15px;
 }
 
 /* Partie 2 */
@@ -325,12 +324,10 @@ aside .star {
 
 #activite_p2_1 {
     border-radius: 20px;
-    padding-bottom: 20px;
     box-shadow: 1px 1px 29px -3px rgb(0 0 0 / 20%);
 }
 #activite_p2_2 {
     border-radius: 20px;
-    padding-bottom: 20px;
     box-shadow: 1px 1px 29px -3px rgb(0 0 0 / 20%);
 }
 
@@ -339,7 +336,6 @@ aside .star {
     width: 280px;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
-    padding-bottom: 15px;
 }
 
 #img_activite_3 {
@@ -347,14 +343,12 @@ aside .star {
     width: 280px;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
-    padding-bottom: 15px;
 }
 
 /* Partie 3 */
 
 #activite_4 {
     border-radius: 20px;
-    padding-bottom: 20px;
     box-shadow: 1px 1px 29px -3px rgb(0 0 0 / 20%);
 }
 
@@ -363,7 +357,6 @@ aside .star {
     height: 400px;
     width: 300px;
     object-fit: cover;
-    padding-bottom: 15px;
 }
 
 /* Partie 4 */
@@ -375,13 +368,11 @@ aside .star {
 
 #activite_p4_1 {
     border-radius: 20px;
-    padding-bottom: 20px;
     box-shadow: 1px 1px 29px -3px rgb(0 0 0 / 20%);
 }
 
 #activite_p4_2 {
     border-radius: 20px;
-    padding-bottom: 20px;
     box-shadow: 1px 1px 29px -3px rgb(0 0 0 / 20%);
 }
 
@@ -390,7 +381,6 @@ aside .star {
     width: 358px;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
-    padding-bottom: 15px;
 }
 
 #img_activite_6 {
@@ -398,7 +388,6 @@ aside .star {
     width: 358px;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
-    padding-bottom: 15px;
 }
 
 
@@ -426,4 +415,42 @@ footer h3 {
 
 footer li{
     margin-bottom: 10px;
+}
+
+
+
+
+/* Media Queries */
+@media all and (max-width: 768px) {
+    
+    body {
+        width: auto;
+        margin : 37.5px;
+    }
+
+    #section1 {
+        display: block;
+        margin-bottom: 0;
+    }
+    
+    #flex_heberg {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #F2F2F2;
+        border-radius: 20px;
+        width: 1300px;
+    }
+    aside {
+        display: flex;
+        width: 1300px;
+    }
+
+    .hbp {
+        display: flex;
+        background-color: white;
+        padding: 3px;
+        margin-bottom: 30px;
+        border-radius: 20px;
+        box-shadow: 1px 1px 29px -3px rgb(0 0 0 / 20%);
+    }
 }
