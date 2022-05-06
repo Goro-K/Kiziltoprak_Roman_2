@@ -94,6 +94,7 @@ button {
   border-radius: 0px 20px 20px 0;
   font-size: 20px;
   margin: 15px 0;
+  border: #0571cf 1px solid;
 }
 
 .fa-magnifying-glass {
