@@ -33,16 +33,21 @@
 
       <!-- Main ? -->
 
-      <section>
+      <section id="partie1">
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
         <p id="presentation">En plein centre ville ou en pleine nature</p>
 
         <!--Barre de recherche-->
 
         <div id="barre_recherche">
-          <i class="fa-solid fa-location-dot" id="icone1"></i>
-          <p><input type="search" placeholder="Marseille, France" /></p>
-          <button><span class="search">Rechercher</span> (icone)</button>
+          <form method="post">
+            <i class="fa-solid fa-location-dot" id="icone1"></i>
+            <p><input type="search" placeholder="Marseille, France" /></p>
+            <button>
+              <span class="search">Rechercher</span
+              ><i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
         </div>
 
         <!-- Filtres -->
@@ -59,10 +64,12 @@
             </li>
           </ul>
         </div>
-        <p id="info">
-          <i class="fa-solid fa-info icone_info"></i>Plus de 500 logements sont
-          disponibles dans cette ville
-        </p>
+        <div class="information">
+          <i class="fa-solid fa-info icone_info"></i>
+          <p class="info">
+            Plus de 500 logements sont disponibles dans cette ville.
+          </p>
+        </div>
       </section>
 
       <!--Hébergement-->
@@ -71,131 +78,131 @@
         <div id="flex_heberg">
           <h2 id="Hebergement">Hébergements à Marseille</h2>
           <div id="flex">
-          <a href="#" class="hb">
-            <article>
-              <img
-                src="DW%20P2%20-%20Ressources%20Booki%20FR/images/hebergements/4_small/La%20cannebière.jpg"
-                alt="Auberge la cannebière"
-                class="img_hebergement"
-              />
-              <div class="detail">
-                <h3>Auberge la Cannebière</h3>
-                <p>Nuit à partir de 25€</p>
-                <div class="star">
-                  <i class="fa-solid fa-star b1"></i>
-                  <i class="fa-solid fa-star b2"></i>
-                  <i class="fa-solid fa-star b3"></i>
-                  <i class="fa-solid fa-star b4"></i>
-                  <i class="fa-solid fa-star g5"></i>
+            <a href="#" class="hb">
+              <article>
+                <img
+                  src="DW%20P2%20-%20Ressources%20Booki%20FR/images/hebergements/4_small/La%20cannebière.jpg"
+                  alt="Auberge la cannebière"
+                  class="img_hebergement"
+                />
+                <div class="detail">
+                  <h3>Auberge la Cannebière</h3>
+                  <p>Nuit à partir de 25€</p>
+                  <div class="star">
+                    <i class="fa-solid fa-star b1"></i>
+                    <i class="fa-solid fa-star b2"></i>
+                    <i class="fa-solid fa-star b3"></i>
+                    <i class="fa-solid fa-star b4"></i>
+                    <i class="fa-solid fa-star g5"></i>
+                  </div>
                 </div>
-              </div>
-            </article>
-          </a>
+              </article>
+            </a>
 
-          <a href="#" class="hb">
-            <article>
-              <img
-                src="DW%20P2%20-%20Ressources%20Booki%20FR/images/hebergements/4_small/Hôtel%20du%20port.jpg"
-                alt="Hôtel du port"
-                class="img_hebergement"
-              />
-              <div class="detail">
-                <h3>Hôtel du port</h3>
-                <p>Nuit à partir de 52€</p>
-                <div class="star">
-                  <i class="fa-solid fa-star b1"></i>
-                  <i class="fa-solid fa-star b2"></i>
-                  <i class="fa-solid fa-star b3"></i>
-                  <i class="fa-solid fa-star b4"></i>
-                  <i class="fa-solid fa-star b5"></i>
+            <a href="#" class="hb">
+              <article>
+                <img
+                  src="DW%20P2%20-%20Ressources%20Booki%20FR/images/hebergements/4_small/Hôtel%20du%20port.jpg"
+                  alt="Hôtel du port"
+                  class="img_hebergement"
+                />
+                <div class="detail">
+                  <h3>Hôtel du port</h3>
+                  <p>Nuit à partir de 52€</p>
+                  <div class="star">
+                    <i class="fa-solid fa-star b1"></i>
+                    <i class="fa-solid fa-star b2"></i>
+                    <i class="fa-solid fa-star b3"></i>
+                    <i class="fa-solid fa-star b4"></i>
+                    <i class="fa-solid fa-star b5"></i>
+                  </div>
                 </div>
-              </div>
-            </article>
-          </a>
+              </article>
+            </a>
 
-          <a href="#" class="hb">
-            <article>
-              <img
-                src="DW%20P2%20-%20Ressources%20Booki%20FR/images/hebergements/4_small/Hôtel%20les%20mouettes.jpg"
-                alt="Hôtel les mouettes"
-                class="img_hebergement"
-              />
-              <div class="detail">
-                <h3>Hôtel Les mouettes</h3>
-                <p>Nuit à partir de 76€</p>
-                <div class="star">
-                  <i class="fa-solid fa-star b1"></i>
-                  <i class="fa-solid fa-star b2"></i>
-                  <i class="fa-solid fa-star b3"></i>
-                  <i class="fa-solid fa-star b4"></i>
-                  <i class="fa-solid fa-star g5"></i>
+            <a href="#" class="hb">
+              <article>
+                <img
+                  src="DW%20P2%20-%20Ressources%20Booki%20FR/images/hebergements/4_small/Hôtel%20les%20mouettes.jpg"
+                  alt="Hôtel les mouettes"
+                  class="img_hebergement"
+                />
+                <div class="detail">
+                  <h3>Hôtel Les mouettes</h3>
+                  <p>Nuit à partir de 76€</p>
+                  <div class="star">
+                    <i class="fa-solid fa-star b1"></i>
+                    <i class="fa-solid fa-star b2"></i>
+                    <i class="fa-solid fa-star b3"></i>
+                    <i class="fa-solid fa-star b4"></i>
+                    <i class="fa-solid fa-star g5"></i>
+                  </div>
                 </div>
-              </div>
-            </article>
-          </a>
+              </article>
+            </a>
 
-          <a href="#" class="hb">
-            <article>
-              <img
-                src="DW%20P2%20-%20Ressources%20Booki%20FR/images/hebergements/4_small/Hôtel%20de%20la%20mer.jpg"
-                alt="Hôtel de la mer"
-                class="img_hebergement"
-              />
-              <div class="detail">
-                <h3>Hôtel de la mer</h3>
-                <p>Nuit à partir de 46€</p>
-                <div class="star">
-                  <i class="fa-solid fa-star b1"></i>
-                  <i class="fa-solid fa-star b2"></i>
-                  <i class="fa-solid fa-star b3"></i>
-                  <i class="fa-solid fa-star b4"></i>
-                  <i class="fa-solid fa-star g5"></i>
+            <a href="#" class="hb">
+              <article>
+                <img
+                  src="DW%20P2%20-%20Ressources%20Booki%20FR/images/hebergements/4_small/Hôtel%20de%20la%20mer.jpg"
+                  alt="Hôtel de la mer"
+                  class="img_hebergement"
+                />
+                <div class="detail">
+                  <h3>Hôtel de la mer</h3>
+                  <p>Nuit à partir de 46€</p>
+                  <div class="star">
+                    <i class="fa-solid fa-star b1"></i>
+                    <i class="fa-solid fa-star b2"></i>
+                    <i class="fa-solid fa-star b3"></i>
+                    <i class="fa-solid fa-star b4"></i>
+                    <i class="fa-solid fa-star g5"></i>
+                  </div>
                 </div>
-              </div>
-            </article>
-          </a>
+              </article>
+            </a>
 
-          <a href="#" class="hb">
-            <article>
-              <img
-                src="DW%20P2%20-%20Ressources%20Booki%20FR/images/hebergements/4_small/Auberge%20le%20panier.jpg"
-                alt="Auberge le panier"
-                class="img_hebergement"
-              />
-              <div class="detail">
-                <h3>Auberge Le Panier</h3>
-                <p>Nuit à partir de 23€</p>
-                <div class="star">
-                  <i class="fa-solid fa-star b1"></i>
-                  <i class="fa-solid fa-star b2"></i>
-                  <i class="fa-solid fa-star b3"></i>
-                  <i class="fa-solid fa-star b4"></i>
-                  <i class="fa-solid fa-star g5"></i>
+            <a href="#" class="hb">
+              <article>
+                <img
+                  src="DW%20P2%20-%20Ressources%20Booki%20FR/images/hebergements/4_small/Auberge%20le%20panier.jpg"
+                  alt="Auberge le panier"
+                  class="img_hebergement"
+                />
+                <div class="detail">
+                  <h3>Auberge Le Panier</h3>
+                  <p>Nuit à partir de 23€</p>
+                  <div class="star">
+                    <i class="fa-solid fa-star b1"></i>
+                    <i class="fa-solid fa-star b2"></i>
+                    <i class="fa-solid fa-star b3"></i>
+                    <i class="fa-solid fa-star b4"></i>
+                    <i class="fa-solid fa-star g5"></i>
+                  </div>
                 </div>
-              </div>
-            </article>
-          </a>
+              </article>
+            </a>
 
-          <a href="#" class="hb">
-            <article>
-              <img
-                src="DW%20P2%20-%20Ressources%20Booki%20FR/images/hebergements/4_small/Hôtel%20chez%20Amina.jpg"
-                alt="Hôtel chez Amina"
-                class="img_hebergement"
-              />
-              <div class="detail">
-                <h3>Hôtel chez Amina</h3>
-                <p>Nuit à partir de 96€</p>
-                <div class="star">
-                  <i class="fa-solid fa-star b1"></i>
-                  <i class="fa-solid fa-star b2"></i>
-                  <i class="fa-solid fa-star b3"></i>
-                  <i class="fa-solid fa-star b4"></i>
-                  <i class="fa-solid fa-star b5"></i>
+            <a href="#" class="hb">
+              <article>
+                <img
+                  src="DW%20P2%20-%20Ressources%20Booki%20FR/images/hebergements/4_small/Hôtel%20chez%20Amina.jpg"
+                  alt="Hôtel chez Amina"
+                  class="img_hebergement"
+                />
+                <div class="detail">
+                  <h3>Hôtel chez Amina</h3>
+                  <p>Nuit à partir de 96€</p>
+                  <div class="star">
+                    <i class="fa-solid fa-star b1"></i>
+                    <i class="fa-solid fa-star b2"></i>
+                    <i class="fa-solid fa-star b3"></i>
+                    <i class="fa-solid fa-star b4"></i>
+                    <i class="fa-solid fa-star b5"></i>
+                  </div>
                 </div>
-              </div>
-            </article>
-          </a>
+              </article>
+            </a>
           </div>
           <a class="af_plus" href="#">Afficher plus</a>
         </div>
@@ -207,69 +214,70 @@
               <h2>Les plus populaires</h2>
               <i class="fa-solid fa-chart-line"></i>
             </div>
-
-            <a href="#" class="hbp">
-              <article>
-                <img
-                  src="DW%20P2%20-%20Ressources%20Booki%20FR/images/hebergements/4_small/Hôtel%20le%20soleil%20du%20matin.jpg"
-                  alt="Hôtel le soleil du matin"
-                  class="img_populaire"
-                />
-                <div class="detail">
-                  <h3>Hôtel Le soleil du matin</h3>
-                  <p>Nuit à partir de 128€</p>
-                  <div class="star">
-                    <i class="fa-solid fa-star b1"></i>
-                    <i class="fa-solid fa-star b2"></i>
-                    <i class="fa-solid fa-star b3"></i>
-                    <i class="fa-solid fa-star b4"></i>
-                    <i class="fa-solid fa-star g5"></i>
+            <div id="flex_heberg_pop">
+              <a href="#" class="hbp">
+                <article>
+                  <img
+                    src="DW%20P2%20-%20Ressources%20Booki%20FR/images/hebergements/4_small/Hôtel%20le%20soleil%20du%20matin.jpg"
+                    alt="Hôtel le soleil du matin"
+                    class="img_populaire"
+                  />
+                  <div class="detail">
+                    <h3>Hôtel Le soleil du matin</h3>
+                    <p>Nuit à partir de 128€</p>
+                    <div class="star">
+                      <i class="fa-solid fa-star b1"></i>
+                      <i class="fa-solid fa-star b2"></i>
+                      <i class="fa-solid fa-star b3"></i>
+                      <i class="fa-solid fa-star b4"></i>
+                      <i class="fa-solid fa-star g5"></i>
+                    </div>
                   </div>
-                </div>
-              </article>
-            </a>
+                </article>
+              </a>
 
-            <a href="#" class="hbp">
-              <article>
-                <img
-                  src="DW%20P2%20-%20Ressources%20Booki%20FR/images/hebergements/4_small/Au%20coeur%20de%20l'eau%20Chambre%20d'hôte.jpg"
-                  alt="Au coeur de l'eau Chambre d'Hôte"
-                  class="img_populaire"
-                />
-                <div class="detail">
-                  <h3>Au coeur de l'eau Chambres d'hôtes</h3>
-                  <p>Nuit à partir de 71€</p>
-                  <div class="star">
-                    <i class="fa-solid fa-star b1"></i>
-                    <i class="fa-solid fa-star b2"></i>
-                    <i class="fa-solid fa-star b3"></i>
-                    <i class="fa-solid fa-star b4"></i>
-                    <i class="fa-solid fa-star g5"></i>
+              <a href="#" class="hbp">
+                <article>
+                  <img
+                    src="DW%20P2%20-%20Ressources%20Booki%20FR/images/hebergements/4_small/Au%20coeur%20de%20l'eau%20Chambre%20d'hôte.jpg"
+                    alt="Au coeur de l'eau Chambre d'Hôte"
+                    class="img_populaire"
+                  />
+                  <div class="detail">
+                    <h3>Au coeur de l'eau Chambres d'hôtes</h3>
+                    <p>Nuit à partir de 71€</p>
+                    <div class="star">
+                      <i class="fa-solid fa-star b1"></i>
+                      <i class="fa-solid fa-star b2"></i>
+                      <i class="fa-solid fa-star b3"></i>
+                      <i class="fa-solid fa-star b4"></i>
+                      <i class="fa-solid fa-star g5"></i>
+                    </div>
                   </div>
-                </div>
-              </article>
-            </a>
+                </article>
+              </a>
 
-            <a href="#" class="hbp">
-              <article>
-                <img
-                  src="DW%20P2%20-%20Ressources%20Booki%20FR/images/hebergements/4_small/Hôtel%20tout%20bleu%20et%20blanc.jpg"
-                  alt="Hôtel tout bleu et blanc"
-                  class="img_populaire"
-                />
-                <div class="detail">
-                  <h3>Hôtel Tout bleu et Blanc</h3>
-                  <p>Nuit à partir de 68€</p>
-                  <div class="star">
-                    <i class="fa-solid fa-star b1"></i>
-                    <i class="fa-solid fa-star b2"></i>
-                    <i class="fa-solid fa-star b3"></i>
-                    <i class="fa-solid fa-star b4"></i>
-                    <i class="fa-solid fa-star g5"></i>
+              <a href="#" class="hbp">
+                <article>
+                  <img
+                    src="DW%20P2%20-%20Ressources%20Booki%20FR/images/hebergements/4_small/Hôtel%20tout%20bleu%20et%20blanc.jpg"
+                    alt="Hôtel tout bleu et blanc"
+                    class="img_populaire"
+                  />
+                  <div class="detail">
+                    <h3>Hôtel Tout bleu et Blanc</h3>
+                    <p>Nuit à partir de 68€</p>
+                    <div class="star">
+                      <i class="fa-solid fa-star b1"></i>
+                      <i class="fa-solid fa-star b2"></i>
+                      <i class="fa-solid fa-star b3"></i>
+                      <i class="fa-solid fa-star b4"></i>
+                      <i class="fa-solid fa-star g5"></i>
+                    </div>
                   </div>
-                </div>
-              </article>
-            </a>
+                </article>
+              </a>
+            </div>
           </div>
         </aside>
       </section>
@@ -284,54 +292,54 @@
               alt="Vieux Port"
               id="img_activite_1"
             />
-            <h4>Vieux Port</h4>
+            <h3>Vieux Port</h3>
           </a>
 
           <div id="p2">
-            <a href="#" id="activite_p2_1"
-              ><img
+            <a href="#" id="activite_p2_1">
+              <img
                 src="DW%20P2%20-%20Ressources%20Booki%20FR/images/activites/4_small/Fort%20de%20Pornègues.jpg"
                 alt="Fort de Pornègues"
                 id="img_activite_2"
               />
-              <h4>Fort de Pomègues</h4></a
-            >
-            <a href="#" id="activite_p2_2"
-              ><img
+              <h3>Fort de Pomègues</h3>
+            </a>
+            <a href="#" id="activite_p2_2">
+              <img
                 src="DW%20P2%20-%20Ressources%20Booki%20FR/images/activites/4_small/Îles%20du%20Frioul.jpg"
                 alt="Îles du Frioul"
                 id="img_activite_3"
               />
-              <h4>Îles du Frioul</h4></a
-            >
+              <h3>Îles du Frioul</h3>
+            </a>
           </div>
 
-          <a href="#" id="activite_4"
-            ><img
+          <a href="#" id="activite_4">
+            <img
               src="DW%20P2%20-%20Ressources%20Booki%20FR/images/activites/4_small/Parc%20National%20de%20Calanques.jpg"
               alt="Parc National des Calanques"
               id="img_activite_4"
             />
-            <h4>Parc National des Calanques</h4></a
-          >
+            <h3>Parc National des Calanques</h3>
+          </a>
 
           <div id="p4">
-            <a href="#" id="activite_p4_1"
-              ><img
+            <a href="#" id="activite_p4_1">
+              <img
                 src="DW%20P2%20-%20Ressources%20Booki%20FR/images/activites/4_small/Notre-Dame-de-la-Garde.jpg"
                 alt="Notre-Dame-de-la-Garde"
                 id="img_activite_5"
               />
-              <h4>Notre-Dame-de-la-Garde</h4></a
-            >
-            <a href="#" id="activite_p4_2"
-              ><img
+              <h3>Notre-Dame-de-la-Garde</h3>
+            </a>
+            <a href="#" id="activite_p4_2">
+              <img
                 src="DW%20P2%20-%20Ressources%20Booki%20FR/images/activites/4_small/Parc%20Longchamp.jpg"
                 alt="Parc Longchamp"
                 id="img_activite_6"
               />
-              <h4>Parc Longchamp</h4></a
-            >
+              <h3>Parc Longchamp</h3>
+            </a>
           </div>
         </div>
       </section>
