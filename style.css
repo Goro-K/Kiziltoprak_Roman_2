@@ -423,7 +423,6 @@ footer li {
 /* Tablette  */
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  
   /*La page entière*/
 
   h1 {
@@ -573,7 +572,7 @@ footer li {
 
   #img_logo {
     width: 76px;
-    height:50px;
+    height: 50px;
     object-fit: cover;
   }
 
@@ -745,7 +744,6 @@ footer li {
     height: 155px;
     width: 100%;
   }
-
 
   #img_activite_4 {
     height: 155px;
