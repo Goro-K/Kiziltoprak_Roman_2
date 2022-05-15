@@ -56,8 +56,13 @@ nav ul :hover {
 
 /* Description */
 section h1 {
-  margin-bottom: -10px;
+  margin-bottom: 0;
 }
+
+#presentation {
+  margin-top: 7px;
+}
+
 /* Barre de Recherche */
 
 #barre_recherche {
@@ -81,7 +86,7 @@ form {
 input {
   padding: 18px;
   border: 1px #e2e2e2 solid;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bolder;
 }
 
@@ -90,7 +95,6 @@ button {
   font-weight: bolder;
   background-color: #0571cf;
   border-radius: 0px 20px 20px 0;
-  font-size: 20px;
   border: #0571cf 1px solid;
 }
 
@@ -191,7 +195,7 @@ button {
 }
 
 article p {
-  margin-top: -17px;
+  margin-top: 2px;
 }
 
 .hb {
@@ -205,20 +209,20 @@ article p {
 }
 
 #section1 h3 {
-  margin-top: -1px;
+  margin: 0;
 }
 
 .af_plus {
   margin-left: 23px;
   padding-bottom: 30px;
   font-weight: bolder;
-  margin-top: -15px;
 }
 
 /* etoile */
 
 .star {
   display: flex;
+  margin-bottom: 6px;
 }
 
 aside .star {
@@ -305,7 +309,8 @@ aside article {
 }
 
 #activite h3 {
-  margin-left: 20px;
+  margin: 0 0 3px 20px;
+  padding: 12px 0;
 }
 
 /* Partie 1 */
@@ -409,7 +414,8 @@ footer ul {
 }
 
 footer div {
-  margin-right: 16%;
+  margin-right: 4%;
+  width: 30%;
 }
 
 footer h3 {
@@ -423,38 +429,10 @@ footer li {
 /* Tablette  */
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  /*La page entière*/
-
-  h1 {
-    font-size: 28px;
-  }
-
-  h2 {
-    font-size: 28px;
-  }
-
-  h3 {
-    font-size: 21px;
-  }
-
-  p {
-    font-size: 19px;
-  }
-
-  /* Navigation */
-
-  .banner {
-    font-size: 24px;
-  }
-
   /* Section Recherche */
 
   #filtre {
     width: 100%;
-  }
-
-  li {
-    font-size: 20px;
   }
 
   /* Section Hebergement */
@@ -480,18 +458,16 @@ footer li {
   .fa-star {
     font-size: 16px;
   }
-  .star {
-    margin-bottom: 5px;
-  }
 
   .af_plus {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   /* Aside */
 
   aside {
     margin-top: 40px;
+    padding: 0 3px 20px;
   }
 
   article {
@@ -499,7 +475,7 @@ footer li {
   }
 
   .fa-chart-line {
-    font-size: 26px;
+    font-size: 22px;
   }
 
   aside article {
@@ -509,6 +485,7 @@ footer li {
   #pop {
     flex-direction: row-reverse;
     justify-content: flex-end;
+    margin-left: 1.5%;
   }
 
   #flex_heberg_pop {
@@ -526,8 +503,8 @@ footer li {
   }
 
   .hbp {
-    width: 32%;
-    margin-right: 2%;
+    width: 30%;
+    margin: 0 1.5%;
   }
 
   aside .star {
@@ -537,9 +514,8 @@ footer li {
   /* Activites */
 
   #activite h3 {
-    margin-left: 12px;
-    margin-bottom: 0px;
-    padding-bottom: 20px;
+    margin-right: 10px;
+    margin-bottom: 0;
   }
 
   /* Footer */
@@ -559,6 +535,19 @@ footer li {
 
   /* Navigation */
 
+  nav a {
+    display: block;
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 3px #e2e2e2 solid;
+  }
+
+  nav li {
+    width: 50%;
+    text-align: center;
+    margin: 0;
+  }
+
   header {
     display: block;
     margin-bottom: 40px;
@@ -576,22 +565,17 @@ footer li {
     object-fit: cover;
   }
 
-  nav {
-    border-bottom: 3px #e2e2e2 solid;
-  }
-
   nav ul {
-    justify-content: space-around;
+    padding: 0;
   }
 
   nav li :hover {
-    border-bottom: #3d86db 3px solid;
-    padding-bottom: 15.6px;
     border-top: 0;
+    padding-top: 0;
   }
 
   nav ul :hover {
-    color: #3d86db;
+    border-bottom: #3d86db 2px solid;
   }
 
   /*Section Recherche */
@@ -601,19 +585,17 @@ footer li {
   }
 
   .fa-location-dot {
-    font-size: 18px;
-    padding: 13.5px 12px;
+    padding: 14.5px 12px;
   }
 
   input {
-    font-size: 18px;
-    padding: 10px;
+    padding: 14px;
   }
 
   button {
-    margin-left: -17px;
     border-radius: 16px;
-    padding: 10px;
+    padding: 14px;
+    margin-left: -10px;
   }
 
   .search {
@@ -621,7 +603,7 @@ footer li {
   }
 
   .fa-magnifying-glass {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   #filtre {
@@ -645,14 +627,16 @@ footer li {
 
   #section1 {
     flex-direction: column-reverse;
+    margin-bottom: 50px;
+  }
+
+  #section1 h3 {
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   #pop {
-    justify-content: flex-start;
-  }
-
-  aside h2 {
-    margin-right: 10%;
+    width: 95%;
   }
 
   .img_populaire {
@@ -661,6 +645,7 @@ footer li {
 
   aside {
     padding: 0 3%;
+    border-radius: 0;
   }
 
   article {
@@ -669,10 +654,6 @@ footer li {
 
   .hbp {
     width: 95%;
-  }
-
-  .detail {
-    padding-left: 9px;
   }
 
   /* Hebergement */
@@ -717,12 +698,19 @@ footer li {
   /* Activite */
 
   #activite {
-    margin: 0 4% 40% 4%;
+    margin: 0 4%;
+  }
+
+  #activite a {
+    margin-bottom: 20px;
   }
 
   #grid_activite {
-    grid-template-columns: repeat(1, 100%);
-    grid-gap: 2%;
+    display: block;
+  }
+
+  #activite_1 {
+    display: block;
   }
 
   #img_activite_1 {
@@ -731,8 +719,11 @@ footer li {
   }
 
   #p2 {
-    grid-gap: 6%;
-    margin-bottom: 25px;
+    display: block;
+  }
+
+  #activite_p2_1 {
+    display: block;
   }
 
   #img_activite_2 {
@@ -740,9 +731,17 @@ footer li {
     width: 100%;
   }
 
+  #activite_p2_2 {
+    display: block;
+  }
+
   #img_activite_3 {
     height: 155px;
     width: 100%;
+  }
+
+  #activite_4 {
+    display: block;
   }
 
   #img_activite_4 {
@@ -751,12 +750,20 @@ footer li {
   }
 
   #p4 {
-    grid-gap: 6%;
+    display: block;
+  }
+
+  #activite_p4_1 {
+    display: block;
   }
 
   #img_activite_5 {
     height: 155px;
     width: 100%;
+  }
+
+  #activite_p4_2 {
+    display: block;
   }
 
   #img_activite_6 {
@@ -769,7 +776,7 @@ footer li {
   footer {
     display: block;
     width: 100%;
-    margin-bottom: -20px;
+    padding-bottom: 2px;
   }
 
   footer li {
@@ -778,5 +785,6 @@ footer li {
 
   footer div {
     margin-right: 0;
+    width: 100%;
   }
 }
