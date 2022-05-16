@@ -165,6 +165,11 @@ button {
   margin-bottom: 80px;
 }
 
+#section1 .hb:hover {
+  transform: scale(1.03);
+  transition: 0.3s ease-in-out;
+}
+
 .img_hebergement {
   height: 120px;
   width: 100%;
@@ -271,6 +276,11 @@ aside article {
   display: flex;
 }
 
+#section1 .hbp:hover {
+  transform: scale(1.03);
+  transition: 0.3s ease-in-out;
+}
+
 .pop {
   display: flex;
   margin-bottom: 15px;
@@ -300,6 +310,11 @@ aside article {
 
 #activite {
   margin-bottom: 40px;
+}
+
+#activite a:hover {
+  transform: scale(1.03);
+  transition: 0.3s ease-in-out;
 }
 
 #grid_activite {
@@ -699,6 +714,11 @@ footer li {
     box-shadow: 1px 1px 29px -3px rgba(0 0 0 / 20%);
     border-radius: 20px;
     padding: 3px;
+  }
+
+  .flex article:hover {
+    transform: scale(1.03);
+    transition: 0.3s ease-in-out;
   }
 
   .img_hebergement {
