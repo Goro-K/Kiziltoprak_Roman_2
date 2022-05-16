@@ -160,12 +160,12 @@ button {
 
 /*Hebergement à Marseille*/
 
-#section1 {
+#hebergement {
   display: flex;
   margin-bottom: 80px;
 }
 
-#section1 .hb:hover {
+#hebergement .hb:hover {
   transform: scale(1.03);
   transition: 0.3s ease-in-out;
 }
@@ -191,7 +191,7 @@ button {
   flex-wrap: wrap;
 }
 
-#hebergement {
+.flex_heberg h2 {
   margin-left: 23px;
 }
 
@@ -213,7 +213,7 @@ article p {
   width: 30%;
 }
 
-#section1 h3 {
+#hebergement h3 {
   margin: 0;
 }
 
@@ -276,7 +276,7 @@ aside article {
   display: flex;
 }
 
-#section1 .hbp:hover {
+#hebergement .hbp:hover {
   transform: scale(1.03);
   transition: 0.3s ease-in-out;
 }
@@ -465,7 +465,7 @@ footer li {
 
   /* Section Hebergement */
 
-  #section1 {
+  #hebergement {
     display: block;
   }
 
@@ -655,12 +655,12 @@ footer li {
 
   /* Section Populaire */
 
-  #section1 {
+  #hebergement {
     flex-direction: column-reverse;
     margin-bottom: 50px;
   }
 
-  #section1 h3 {
+  #hebergement h3 {
     margin-top: 0;
     margin-bottom: 0;
   }
@@ -697,7 +697,7 @@ footer li {
     margin: 0 4%;
   }
 
-  #hebergement {
+  .flex_heberg h2 {
     margin-left: 0;
   }
 
