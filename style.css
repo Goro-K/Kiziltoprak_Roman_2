@@ -128,6 +128,10 @@ button {
   font-size: 17px;
 }
 
+#filtre li:hover {
+  background-color: #f2f2f2;
+}
+
 .icone_filtre {
   color: #0065FC;
   border: #f2f2f2 solid 1px;
@@ -183,12 +187,12 @@ button {
   background-color: #f2f2f2;
   border-radius: 20px;
   margin-right: 50px;
-  padding-right: 35px;
 }
 
 .flex {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .flex_heberg h2 {
@@ -206,7 +210,6 @@ article p {
 .hb {
   background-color: white;
   padding: 3px;
-  margin-left: 2%;
   border-radius: 20px;
   box-shadow: 1px 1px 29px -3px rgba(0 0 0 / 20%);
   margin-bottom: 40px;
@@ -319,7 +322,7 @@ aside article {
 
 #grid_activite {
   display: grid;
-  grid-template-columns: repeat(5, 23%);
+  grid-template-columns: repeat(5, 22.9%);
   grid-gap: 2.7%;
 }
 
@@ -515,11 +518,11 @@ footer li {
   .pop {
     flex-direction: row-reverse;
     justify-content: flex-end;
-    margin-left: 1.5%;
   }
 
   #flex_heberg_pop {
     display: flex;
+    justify-content: space-around;
   }
 
   aside h2 {
@@ -604,8 +607,8 @@ footer li {
     padding-top: 0;
   }
 
-  nav ul :hover {
-    border-bottom: #3d86db 2px solid;
+  nav ul a:hover {
+    border-bottom: #3d86db 3px solid;
   }
 
   /*Section Recherche */
@@ -683,7 +686,7 @@ footer li {
   }
 
   .hbp {
-    width: 95%;
+    width: 100%;
     margin-bottom: 15px;
   }
 
@@ -707,19 +710,12 @@ footer li {
   }
 
   .hb {
+    display: block;
     padding: 0;
+    width: 100%;
+    margin-right: 0;
   }
 
-  .flex article {
-    box-shadow: 1px 1px 29px -3px rgba(0 0 0 / 20%);
-    border-radius: 20px;
-    padding: 3px;
-  }
-
-  .flex article:hover {
-    transform: scale(1.03);
-    transition: 0.3s ease-in-out;
-  }
 
   .img_hebergement {
     height: 155px;
