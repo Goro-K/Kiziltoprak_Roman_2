@@ -435,6 +435,19 @@ footer li {
     width: 100%;
   }
 
+  #filtre li {
+    margin-right: 8px;
+    padding-right: 4px;
+  }
+
+  .icone_filtre {
+    margin-right: 5px;
+  }
+
+  .fa-child-reaching {
+    margin-right: 5px;
+  }
+
   /* Section Hebergement */
 
   #section1 {
@@ -444,6 +457,7 @@ footer li {
   .flex_heberg {
     margin-right: 0;
     padding-right: 0;
+    border-radius: 0;
   }
 
   .hb {
@@ -468,6 +482,7 @@ footer li {
   aside {
     margin-top: 40px;
     padding: 0 3px 20px;
+    border-radius: 0;
   }
 
   article {
@@ -680,7 +695,7 @@ footer li {
     padding: 0;
   }
 
-  #flex article {
+  .flex article {
     box-shadow: 1px 1px 29px -3px rgba(0 0 0 / 20%);
     border-radius: 20px;
     padding: 3px;
