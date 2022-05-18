@@ -322,8 +322,8 @@ aside article {
 
 #grid_activite {
   display: grid;
-  grid-template-columns: repeat(5, 22.9%);
-  grid-gap: 2.7%;
+  grid-template-columns: repeat(5, 22.8%);
+  grid-gap: 2.8%;
 }
 
 #activite h3 {
@@ -711,7 +711,7 @@ footer li {
 
   .hb {
     display: block;
-    padding: 0;
+    padding: 0 0 5px 0;
     width: 100%;
     margin-right: 0;
   }
